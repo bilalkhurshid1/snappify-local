@@ -1,0 +1,53 @@
+body {
+    background: #1a1a1a;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+a {
+    color: #1db954;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 4rem;
+}
+
+#to-be-replaced {
+	transition: opacity 1s ease-in-out;
+	opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+#star-banner {
+    width: 100%;
+    transform: translateY(5rem);
+}
+
+#thanks-gif {
+    width: 20rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.centered-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#banjo-gif {
+    display: none;
+    width: 5rem;
+    position: absolute;
+    left: 3rem;
+    bottom: 8rem;
+    transform: scaleX(-1);
+}

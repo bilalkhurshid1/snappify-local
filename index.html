@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Snappify</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header>
+			<img id="wow-gif" src="gifs/wow.gif" alt="Wow" />
+			<img id="cat-gif" src="gifs/catdrinking.gif" alt="Cat Drinking" />
+			<img id="envelope-gif" src="gifs/envelope.gif" alt="Envelope" />
+			<img id="headphones-gif" src="gifs/headphones.gif" alt="Headphones" />
+			<div class="container">
+				<div class="logo-title">
+					<h1>snappify</h1>
+					<img id="logo" src="images/snaplogowhite.png" alt="Logo" />
+				</div>
+				<p>your weekly listening recap — delivered straight to your inbox.</p>
+				<a class="cta-button" id="auth-button" href="#">
+					connect with
+					<img
+						id="spotify-logo"
+						src="images/spotifylogowhite.png"
+						alt="Spotify logo"
+					/>
+				</a>
+			</div>
+		</header>
+
+		<section class="how-it-works">
+			<div class="container">
+				<h2>how it works:</h2>
+				<ol>
+					<li>
+						connect your spotify account<img
+							id="cd-gif"
+							src="gifs/cdspin.gif"
+						/>
+					</li>
+					<li>
+						we look at what you listened to each week<img
+							id="magnifying-gif"
+							src="gifs/magnifying.gif"
+						/>
+					</li>
+					<li>
+						we send you an awesome weekly email summarizing your listening
+						habits <img id="transfer-gif" src="gifs/filetransfer.gif" />
+					</li>
+				</ol>
+			</div>
+		</section>
+
+		<footer>
+			<div class="kofi-wrapper">
+				<script 
+					type="text/javascript" 
+					src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"
+				></script>
+				<script type="text/javascript">
+					kofiwidget2.init("Support me on Ko-fi", "#72a4f2", "F2F71DRUBH");
+					kofiwidget2.draw();
+				</script>
+			</div>
+			<div class="github-wrapper">
+				<p id="github-box">check us out on github:  
+					<a href="github"> 
+						<img id="github-logo" src="images/githublogowhite.png" alt="GitHub Logo" /> 
+					</a>
+				</p>
+			</div>
+			<div class="container">
+				<p>&copy; 2025 Snappify. Not affiliated with Spotify.</p>
+			</div>
+		</footer>
+		<script src="src/auth.js"></script>
+	</body>
+</html>

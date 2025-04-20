@@ -1,0 +1,215 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 3rem;
+    height: auto;
+    transform: translateY(-.6rem);
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background: #0e0e0e;
+    color: #f1f1f1;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    position: relative;
+    /* Add this */
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #1db954, #1ed760);
+    color: #fff;
+    padding: 4rem 2rem;
+    border-bottom: 4px solid #0e0e0e;
+}
+
+.logo-title h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.logo-title img {
+    width: 60px;
+    height: auto;
+}
+
+.logo-title h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #0e0e0e;
+    color: #1db954;
+    border: 2px solid #1db954;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.cta-button #spotify-logo {
+    width: 1.25rem;
+    height: auto;
+    flex-shrink: 0;
+    margin-left: 0.5rem;
+}
+
+.cta-button:hover {
+    background: white;
+    color: #1db954;
+    font-weight: bold;
+    transform: scaleX(1.1) scaleY(1.1);
+    transition: ease-in-out 0.3s;
+}
+
+.cta-button:hover #spotify-logo {
+    filter: invert(1);
+    transition: ease-in-out 0.3s;
+}
+
+.cta-button #spotify-logo {
+    width: 1.25rem;
+    /* try 1.25rem (20px) or adjust to taste */
+    height: auto;
+    flex-shrink: 0;
+    margin-left: .5rem;
+}
+
+/* How it works section */
+.how-it-works {
+    background: #1a1a1a;
+    padding: 3rem 2rem;
+}
+
+.how-it-works h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 8px #fff;
+}
+
+.how-it-works ol {
+    list-style-position: inside;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.how-it-works li {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    padding: 2rem;
+    background: #0e0e0e;
+    font-size: 0.875rem;
+    opacity: 0.7;
+}
+
+#wow-gif,
+#cat-gif,
+#envelope-gif,
+#headphones-gif {
+    position: absolute;
+}
+
+#wow-gif {
+    transform: rotate(-35deg);
+    width: 100px;
+    top: 1rem;
+    left: 1rem;
+}
+
+#cat-gif {
+    width: 80px;
+    bottom: 1rem;
+    left: 1rem;
+    transform: scaleX(-1);
+}
+
+#envelope-gif {
+    width: 80px;
+    top: 2rem;
+    right: 1rem;
+}
+
+#headphones-gif {
+    width: 50px;
+    bottom: 3rem;
+    right: 1rem;
+}
+
+li img {
+    display: inline-block;
+    margin-left: 1rem;
+    transform: translateY(.6rem);
+}
+
+.kofi-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.how-it-works ol {
+    margin: auto;
+}
+
+#github-logo {
+    width: 3rem;
+    height: auto;
+    margin-left: .5rem;
+    margin-top: 1rem;
+    vertical-align: middle;
+}
+
+.github-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+#github-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
