@@ -1,5 +1,5 @@
 const redirectUri =
-	"https://main.ddmdfp20v4puw.amplifyapp.com/callback.html/";
+	"https://main.ddmdfp20v4puw.amplifyapp.com/callback.html";
 
 // Step 1: Get the `code` from the URL
 const code = new URLSearchParams(window.location.search).get("code");
