@@ -122,6 +122,7 @@ header p {
 }
 
 .how-it-works ol {
+    color: silver;
     list-style-position: inside;
     text-align: center;
     max-width: 600px;
@@ -187,6 +188,7 @@ li img {
 .kofi-wrapper {
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -194,22 +196,27 @@ li img {
     margin: auto;
 }
 
-#github-logo {
-    width: 3rem;
-    height: auto;
-    margin-left: .5rem;
-    margin-top: 1rem;
-    vertical-align: middle;
-}
-
 .github-wrapper {
-    display: flex;
-    justify-content: center;
-    margin: 1rem 0;
+	display: flex;
+	justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: .25rem;
 }
 
 #github-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem; /* spacing between text and logo */
+	color: white;
+	font-size: 1.1rem;
+}
+
+#github-box p {
+	margin: 0;
+}
+
+#github-logo {
+	width: 3rem;
+	height: auto;
 }
