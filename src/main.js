@@ -1,5 +1,5 @@
 // Import styles (if you move your CSS to the src folder)
-import './style.css';
+import './styles.css';
 
 // Import modules
 import './auth.js';
