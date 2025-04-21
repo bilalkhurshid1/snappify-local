@@ -4,10 +4,6 @@ const redirectUri =
 // Step 1: Get the `code` from the URL
 const code = new URLSearchParams(window.location.search).get("code");
 
-// Clean up URL after authorization
-const newUrl = window.location.origin + window.location.pathname;
-window.history.replaceState({}, document.title, newUrl);
-
 const statusText = document.getElementById("to-be-replaced");
 
 if (!code) {
@@ -38,6 +34,11 @@ if (!code) {
 			statusText.innerHTML = `<p>Error during onboarding: ${error.message}</p>`;
 		}
 	}
+
+
+	// Clean up URL after authorization
+	const newUrl = window.location.origin + window.location.pathname;
+	window.history.replaceState({}, document.title, newUrl);
 
 	function getNextSunday() {
 		const today = new Date();
