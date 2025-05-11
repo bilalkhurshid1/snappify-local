@@ -1,0 +1,118 @@
+body {
+    background: linear-gradient(135deg, #1db954, #1ed760);
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.star-banner {
+    width: 100%;
+    min-width: 400px;
+    height: auto;
+    transform: translateY(5rem);
+}
+
+#star-banner-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#star-banner-bottom {
+    position: absolute;
+    bottom: 10rem;
+    left: 0;
+}
+
+#sad-gif {
+    width: 5rem;
+    position: absolute;
+    right: 3rem;
+    bottom: 8rem;
+}
+
+#confirmation-box {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 600px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #0e0e0e;
+    color: #1db954;
+    border: 2px solid #1db954;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background: white;
+    color: #1db954;
+    transform: scale(1.05);
+}
+
+.cta-button.secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.cta-button.secondary:hover {
+    background: white;
+    color: #1db954;
+}
+
+#success-message {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 600px;
+}
