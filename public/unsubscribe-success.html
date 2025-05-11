@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>unsubscribed from snappify</title>
+		<link rel="stylesheet" href="/unsubscribe.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<main class="container">
+			<img
+				id="star-banner-top"
+				class="star-banner"
+				src="/gifs/starbanner.gif"
+				alt="star banner"
+			/>
+			<h1>you've been unsubscribed</h1>
+			<p>we're sad to see you go!</p>
+			
+			<div id="success-message">
+				<p>You have been successfully unsubscribed from snappify.</p>
+				<p>We hope to see you again soon!</p>
+				<a href="https://snappify.cc" class="cta-button">Return to Homepage</a>
+			</div>
+
+			<img
+				id="star-banner-bottom"
+				class="star-banner"
+				src="/gifs/starbanner.gif"
+				alt="star banner"
+			/>
+			<img id="sad-gif" src="/gifs/starbanner.gif" alt="sad gif" />
+		</main>
+
+		<script>
+			// Redirect to homepage after 5 seconds
+			setTimeout(function() {
+				window.location.href = "https://snappify.cc";
+			}, 5000);
+		</script>
+	</body>
+</html>
